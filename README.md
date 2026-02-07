@@ -18,3 +18,5 @@ var $parameters:=cs.AIKit.RerankerParameters.new({model: "default"; top_n: 3})
 
 var $result:=$client.rerank.create($query; $parameters)
 ```
+
+<img width="800" height="auto" alt="" src="https://github.com/user-attachments/assets/93b8461d-a892-49fd-bf5c-ef2158a2a4f3" />
