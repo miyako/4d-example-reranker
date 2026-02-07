@@ -1,0 +1,17 @@
+{
+	"dependencies": {
+		"4D AIKit": {},
+		"onnx genai": {
+			"github": "miyako/onnx-genai",
+			"version": "latest"
+		},
+		"llama cpp": {
+			"github": "miyako/llama-cpp",
+			"version": "latest"
+		},
+		"event": {
+			"github": "miyako/event",
+			"version": "latest"
+		}
+	}
+}
