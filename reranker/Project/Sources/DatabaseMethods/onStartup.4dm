@@ -78,7 +78,7 @@ $folder:=$homeFolder.folder("bge-reranker-v2-m3")  //where to keep the repo
 $path:="bge-reranker-v2-m3-onnx"  //path to the file
 $URL:="keisuke-miyako/bge-reranker-v2-m3-onnx"  //path to the repo
 
-$huggingface:=cs:C1710.event.huggingface.new($folder; $URL; $path; "rerank"; "model_quantized.onnx")
+$huggingface:=cs:C1710.event.huggingface.new($folder; $URL; $path; "rerank"; "model.onnx")
 $huggingfaces:=cs:C1710.event.huggingfaces.new([$huggingface])
 
 $options:={}
