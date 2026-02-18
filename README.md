@@ -19,4 +19,10 @@ var $parameters:=cs.AIKit.RerankerParameters.new({model: "default"; top_n: 3})
 var $result:=$client.rerank.create($query; $parameters)
 ```
 
+||GGUF Q8_0|ONNX Int8|CTranslate Int8|
+|-|-|-|-
+|`0`|`0.99975650378508`|`0.9982253909111`|`0.99974030256271`|
+|`3`|`0.0040334316733283`|`0.012791481800377`|`0.0037298486568034`|
+|`2`|`0.00001605949705307`|`0.00007260562415468`|`0.00001607972626516`|
+
 <img width="800" height="auto" alt="" src="https://github.com/user-attachments/assets/93b8461d-a892-49fd-bf5c-ef2158a2a4f3" />
