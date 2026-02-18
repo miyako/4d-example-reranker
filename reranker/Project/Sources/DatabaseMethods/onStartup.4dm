@@ -40,10 +40,6 @@ $folder:=$homeFolder.folder("bge-reranker-v2-m3")  //where to keep the repo
 $path:="bge-reranker-v2-m3-Q8_0.gguf"  //path to the file
 $URL:="keisuke-miyako/bge-reranker-v2-m3-gguf-q8_0"  //path to the repo
 
-//$folder:=$homeFolder.folder("ms-marco-MiniLM-L6-v2")  //where to keep the repo
-//$path:="ms-marco-MiniLM-L6-v2-Q8_0.gguf"  //path to the file
-//$URL:="keisuke-miyako/ms-marco-MiniLM-L6-v2-gguf-q8_0"  //path to the repo
-
 //$folder:=$homeFolder.folder("jina-reranker-v1-turbo-en")  //where to keep the repo
 //$path:="jina-reranker-v1-turbo-en-Q8_0.gguf"  //path to the file
 //$URL:="keisuke-miyako/jina-reranker-v1-turbo-en-gguf-q8_0"  //path to the repo
@@ -74,9 +70,25 @@ $llama:=cs:C1710.llama.llama.new($port; $huggingfaces; $homeFolder; $options; $e
 $homeFolder:=Folder:C1567(fk home folder:K87:24).folder(".ONNX")
 $port:=8081
 
-$folder:=$homeFolder.folder("bge-reranker-v2-m3")  //where to keep the repo
-$path:="bge-reranker-v2-m3-onnx"  //path to the file
-$URL:="keisuke-miyako/bge-reranker-v2-m3-onnx"  //path to the repo
+//$folder:=$homeFolder.folder("jina-reranker-v1-turbo-en")  //where to keep the repo
+//$path:="jina-reranker-v1-turbo-en-onnx-fp16"  //path to the file
+//$URL:="keisuke-miyako/jina-reranker-v1-turbo-en-onnx-fp16"  //path to the repo
+
+$folder:=$homeFolder.folder("bge-reranker-base")  //where to keep the repo
+$path:="bge-reranker-base-onnx-fp16"  //path to the file
+$URL:="keisuke-miyako/bge-reranker-base-onnx-fp16"  //path to the repo
+
+$folder:=$homeFolder.folder("bge-reranker-v2-m3-int8")  //where to keep the repo
+$path:="bge-reranker-v2-m3-onnx-int8"  //path to the file
+$URL:="keisuke-miyako/bge-reranker-v2-m3-onnx-int8"  //path to the repo
+
+$folder:=$homeFolder.folder("ms-marco-MiniLM-L6-v2-fp32")  //where to keep the repo
+$path:="ms-marco-MiniLM-L6-v2-onnx-fp32"  //path to the file
+$URL:="keisuke-miyako/ms-marco-MiniLM-L6-v2-onnx-fp32"  //path to the repo
+
+$folder:=$homeFolder.folder("ms-marco-MiniLM-L6-v2-fp16")  //where to keep the repo
+$path:="ms-marco-MiniLM-L6-v2-onnx-fp16"  //path to the file
+$URL:="keisuke-miyako/ms-marco-MiniLM-L6-v2-onnx-fp16"  //path to the repo
 
 $huggingface:=cs:C1710.event.huggingface.new($folder; $URL; $path; "rerank"; "model.onnx")
 $huggingfaces:=cs:C1710.event.huggingfaces.new([$huggingface])
@@ -84,3 +96,24 @@ $huggingfaces:=cs:C1710.event.huggingfaces.new([$huggingface])
 $options:={}
 
 $ONNX:=cs:C1710.ONNX.ONNX.new($port; $huggingfaces; $homeFolder; $options; $event)
+
+/*
+
+CTranslate2: 
+
+use int8 quantisation
+
+*/
+
+$homeFolder:=Folder:C1567(fk home folder:K87:24).folder(".CTranslate2")
+$port:=8082
+
+$folder:=$homeFolder.folder("mmarco-mMiniLMv2-L12-H384-v1")
+$path:="mmarco-mMiniLMv2-L12-H384-v1-ct2-int8"
+$URL:="keisuke-miyako/mmarco-mMiniLMv2-L12-H384-v1-ct2-int8"
+$huggingface:=cs:C1710.event.huggingface.new($folder; $URL; $path; "rerank")
+$huggingfaces:=cs:C1710.event.huggingfaces.new([$huggingface])
+
+$options:={}
+
+$CTranslate2:=cs:C1710.CTranslate2.CTranslate2.new($port; $huggingfaces; $homeFolder; $options; $event)

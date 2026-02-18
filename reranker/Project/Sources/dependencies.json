@@ -12,6 +12,10 @@
 		"event": {
 			"github": "miyako/event",
 			"version": "latest"
+		},
+		"ctranslate2": {
+			"github": "miyako/ctranslate2",
+			"version": "latest"
 		}
 	}
 }
