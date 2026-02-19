@@ -1,4 +1,4 @@
-# 4d-example-renranker
+# 4d-example-reranker
 
 Sample project to test AI Kit rerank support
 
