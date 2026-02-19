@@ -47,11 +47,15 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ### Model: [BAAI/bge-reranker-large](https://huggingface.co/BAAI/bge-reranker-large)
 
+> [!WARNING]
+> 
+> You must set `{pooling: "cls"}` for `ONNX` and `CTranslate2`.
+
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8| 
 |-|-|-|-
-|`0`|``|⚠️|`0.99963819980621`|
-|`3`|``|⚠️|`0.069412730634212`|
-|`2`|``|⚠️|`0.00007634641951881`|
+|`0`|``|`0.99949955940247`|`0.99963819980621`|
+|`3`|``|`0.05670153722167`|`0.069412730634212`|
+|`2`|``|`0.00007670062768739`|`0.00007634641951881`|
 
 ### ⚠️ [cross-encoder/ms-marco-MiniLM-L6-v2](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2)
 
