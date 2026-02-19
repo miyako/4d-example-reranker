@@ -47,9 +47,9 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8| 
 |-|-|-|-
-|`0`|``|``|`0.99963819980621`|
-|`3`|``|``|`0.069412730634212`|
-|`2`|``|``|`0.00007634641951881`|
+|`0`|``|⚠️|`0.99963819980621`|
+|`3`|``|⚠️|`0.069412730634212`|
+|`2`|``|⚠️|`0.00007634641951881`|
 
 ### ⚠️ [cross-encoder/ms-marco-MiniLM-L6-v2](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2)
 
