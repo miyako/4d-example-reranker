@@ -49,7 +49,7 @@ var $result:=$client.rerank.create($query; $parameters)
 
 > [!WARNING]
 > 
-> You must set `{pooling: "cls"}` for `ONNX` and `CTranslate2`.
+> You must set `{pooling: "cls"}` for `ONNX Runtime` (default=mean).
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8| 
 |-|-|-|-
