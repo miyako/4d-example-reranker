@@ -108,5 +108,3 @@ var $result:=$client.rerank.create($query; $parameters)
 |`0`|`0.99849343299866`|`0.3774676322937`||
 |`3`|`0.17696142196655`|`0.19882951676846`||
 |`2`|`0.00014215805276763`|`0.18937009572983`||
-
-<img width="500" height="auto" alt="" src="https://github.com/user-attachments/assets/93b8461d-a892-49fd-bf5c-ef2158a2a4f3" />
