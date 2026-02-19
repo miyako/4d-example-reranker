@@ -69,4 +69,12 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ---
 
+### [Qwen/Qwen3-Reranker-0.6B](https://huggingface.co/Qwen/Qwen3-Reranker-0.6B)
+
+||GGUF Q8_0|ONNX Int8|CTranslate Int8
+|-|-|-|-
+|`0`||||
+|`3`||||
+|`2`|||
+
 <img width="500" height="auto" alt="" src="https://github.com/user-attachments/assets/93b8461d-a892-49fd-bf5c-ef2158a2a4f3" />
