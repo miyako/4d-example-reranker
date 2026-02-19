@@ -19,7 +19,7 @@ var $parameters:=cs.AIKit.RerankerParameters.new({model: "default"; top_n: 3})
 var $result:=$client.rerank.create($query; $parameters)
 ```
 
-### Model: [BAAI/bge-reranker-v2-m3](https://huggingface.co/BAAI/bge-reranker-v2-m3)
+### 🥇 [BAAI/bge-reranker-v2-m3](https://huggingface.co/BAAI/bge-reranker-v2-m3)
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
@@ -27,21 +27,13 @@ var $result:=$client.rerank.create($query; $parameters)
 |`3`|`0.0040334316733283`|`0.012791481800377`|`0.0037298486568034`|
 |`2`|`0.00001605949705307`|`0.00007260562415468`|`0.00001607972626516`|
 
-### Model: [BAAI/bge-reranker-base](https://huggingface.co/BAAI/bge-reranker-base)
+### 🥈 [BAAI/bge-reranker-base](https://huggingface.co/BAAI/bge-reranker-base)
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
 |`0`|``|`0.9995738863945`|`0.99971753358841`|
 |`3`|``|`0.00095846987096593`|`0.00032641555299051`|
 |`2`|``|`0.00027665623929352`|`0.00003765087967622`|
-
-### Model: [cross-encoder/ms-marco-MiniLM-L6-v2](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2) ⚠️
-
-||GGUF Q8_0|ONNX Int8|CTranslate Int8
-|-|-|-|-
-|`0`|``|`0.3249731361866`|`0.4925831258297`|
-|`2`|``|`0.012862857431173`|`0.48784512281418`|
-|`3`|``|`0.0076748430728912`|`0.48617944121361`|
 
 ### Model: [cross-encoder/mmarco-mMiniLMv2-L12-H384-v1](https://huggingface.co/cross-encoder/mmarco-mMiniLMv2-L12-H384-v1)
 
@@ -51,4 +43,14 @@ var $result:=$client.rerank.create($query; $parameters)
 |`3`|`0.021881894500755`|`0.027220340445638`|`0.02367801591754`|
 |`2`|`0.0037152149705926`|`0.010983953252435`|`0.0035643121227622`|
 
-<img width="800" height="auto" alt="" src="https://github.com/user-attachments/assets/93b8461d-a892-49fd-bf5c-ef2158a2a4f3" />
+### ⚠️ [cross-encoder/ms-marco-MiniLM-L6-v2](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2)
+
+||GGUF Q8_0|ONNX Int8|CTranslate Int8
+|-|-|-|-
+|`0`|``|`0.3249731361866`|`0.4925831258297`|
+|`2`|``|`0.012862857431173`|`0.48784512281418`|
+|`3`|``|`0.0076748430728912`|`0.48617944121361`|
+
+---
+
+<img width="500" height="auto" alt="" src="https://github.com/user-attachments/assets/93b8461d-a892-49fd-bf5c-ef2158a2a4f3" />
