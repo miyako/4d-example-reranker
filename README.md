@@ -83,10 +83,12 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ### [Qwen/Qwen3-Reranker-0.6B](https://huggingface.co/Qwen/Qwen3-Reranker-0.6B)
 
+> This model is technically an LLM and consumes a lot of computation resources.
+
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
-|`0`||||
-|`3`||||
-|`2`|||
+|`0`|`0.99849343299866`|`0.3774676322937`||
+|`3`|`0.17696142196655`|`0.19882951676846`||
+|`2`|`0.00014215805276763`|`0.18937009572983`||
 
 <img width="500" height="auto" alt="" src="https://github.com/user-attachments/assets/93b8461d-a892-49fd-bf5c-ef2158a2a4f3" />
