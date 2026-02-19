@@ -63,6 +63,8 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ### [cross-encoder/ms-marco-MiniLM-L6-v2](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2)
 
+> This model is BERT, not XLM-RoBERTa. The flat results suggest a bug in llama.cpp.
+
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
 |`0`|`0.4982936187771`|`0.99997627735138`|`0.4925831258297`|
