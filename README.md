@@ -77,7 +77,7 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ### [jinaai/jina-reranker-v1-turbo-en](https://huggingface.co/jinaai/jina-reranker-v1-turbo-en)
 
-> This model is BERT (see above).
+> This model uses ALiBi (Attention with Linear Biases).
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
