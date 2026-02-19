@@ -85,6 +85,8 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ### [ibm-granite/granite-embedding-reranker-english-r2](https://huggingface.co/ibm-granite/granite-embedding-reranker-english-r2)
 
+>  This model is ModernBERT. 
+
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
 |`0`||`0.83685111999512`||
