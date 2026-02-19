@@ -27,6 +27,13 @@ var $result:=$client.rerank.create($query; $parameters)
 |`3`|`0.0040334316733283`|`0.012791481800377`|`0.0037298486568034`|
 |`2`|`0.00001605949705307`|`0.00007260562415468`|`0.00001607972626516`|
 
+### ⚠️Model: [cross-encoder/ms-marco-MiniLM-L6-v2](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2)
+
+||GGUF Q8_0|ONNX Int8|CTranslate Int8
+|-|-|-|-
+|`0`|``|`0.3249731361866`|`0.4925831258297`|
+|`2`|``|`0.012862857431173`|`0.48784512281418`|
+|`3`|``|`0.0076748430728912`|`0.48617944121361`|
 
 ### Model: [cross-encoder/mmarco-mMiniLMv2-L12-H384-v1](https://huggingface.co/cross-encoder/mmarco-mMiniLMv2-L12-H384-v1)
 
