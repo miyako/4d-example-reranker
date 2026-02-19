@@ -47,10 +47,6 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ### Model: [BAAI/bge-reranker-large](https://huggingface.co/BAAI/bge-reranker-large)
 
-> [!WARNING]
-> 
-> You must set `{pooling: "cls"}` for `ONNX Runtime` (default=mean).
-
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8| 
 |-|-|-|-
 |`0`|``|`0.99949955940247`|`0.99963819980621`|
