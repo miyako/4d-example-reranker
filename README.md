@@ -19,6 +19,8 @@ var $parameters:=cs.AIKit.RerankerParameters.new({model: "default"; top_n: 3})
 var $result:=$client.rerank.create($query; $parameters)
 ```
 
+### Model: [BAAI/bge-reranker-v2-m3](https://huggingface.co/BAAI/bge-reranker-v2-m3)
+
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8|
 |-|-|-|-
 |`0`|`0.99975650378508`|`0.9982253909111`|`0.99974030256271`|
