@@ -35,13 +35,15 @@ var $result:=$client.rerank.create($query; $parameters)
 |`3`|``|`0.00095846987096593`|`0.00032641555299051`|
 |`2`|``|`0.00027665623929352`|`0.00003765087967622`|
 
-### Model: [cross-encoder/mmarco-mMiniLMv2-L12-H384-v1](https://huggingface.co/cross-encoder/mmarco-mMiniLMv2-L12-H384-v1)
+### 🥉 [cross-encoder/mmarco-mMiniLMv2-L12-H384-v1](https://huggingface.co/cross-encoder/mmarco-mMiniLMv2-L12-H384-v1)
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8| 
 |-|-|-|-
 |`0`|`0.99997075413285`|`0.97348910570145`|`0.99996781349182`|
 |`3`|`0.021881894500755`|`0.027220340445638`|`0.02367801591754`|
 |`2`|`0.0037152149705926`|`0.010983953252435`|`0.0035643121227622`|
+
+---
 
 ### Model: [BAAI/bge-reranker-large](https://huggingface.co/BAAI/bge-reranker-large)
 
