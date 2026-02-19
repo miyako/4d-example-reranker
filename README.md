@@ -75,6 +75,8 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ### [jinaai/jina-reranker-v1-turbo-en](https://huggingface.co/jinaai/jina-reranker-v1-turbo-en)
 
+> This model is BERT (see above).
+
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
 |`0`|`0.47711632548651`|`0.26465171575546`⤵||
