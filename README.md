@@ -81,6 +81,16 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ---
 
+### [ibm-granite/granite-embedding-reranker-english-r2](https://huggingface.co/ibm-granite/granite-embedding-reranker-english-r2)
+
+||GGUF Q8_0|ONNX Int8|CTranslate Int8
+|-|-|-|-
+|`0`||`0.83685111999512`||
+|`3`||`0.81015694141388`||
+|`2`||||
+
+---
+
 ### [Qwen/Qwen3-Reranker-0.6B](https://huggingface.co/Qwen/Qwen3-Reranker-0.6B)
 
 > This model is technically an LLM and consumes a lot of computation resources.
