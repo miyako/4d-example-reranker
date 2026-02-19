@@ -27,6 +27,14 @@ var $result:=$client.rerank.create($query; $parameters)
 |`3`|`0.0040334316733283`|`0.012791481800377`|`0.0037298486568034`|
 |`2`|`0.00001605949705307`|`0.00007260562415468`|`0.00001607972626516`|
 
+### Model: [BAAI/bge-reranker-base](https://huggingface.co/BAAI/bge-reranker-base)
+
+||GGUF Q8_0|ONNX Int8|CTranslate Int8
+|-|-|-|-
+|`0`|``|`0.9995738863945`|`0.99971753358841`|
+|`3`|``|`0.00095846987096593`|`0.00032641555299051`|
+|`2`|``|`0.00027665623929352`|`0.00003765087967622`|
+
 ### Model: [cross-encoder/ms-marco-MiniLM-L6-v2](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2) ⚠️
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
