@@ -27,6 +27,8 @@ var $result:=$client.rerank.create($query; $parameters)
 |`3`|`0.0040334316733283`|`0.0034260561224073`|`0.0037298486568034`|
 |`2`|`0.00001605949705307`|`0.00001626304583624`|`0.00001607972626516`|
 
+---
+
 ### 🥈 [BAAI/bge-reranker-large](https://huggingface.co/BAAI/bge-reranker-large)
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8| 
@@ -34,6 +36,8 @@ var $result:=$client.rerank.create($query; $parameters)
 |`0`|`0.99963819980621`|`0.99949955940247`|`0.99963819980621`|
 |`3`|`0.069412730634212`|`0.05670153722167`|`0.069412730634212`|
 |`2`|`0.00007634641951881`|`0.00007670062768739`|`0.00007634641951881`|
+
+---
 
 ### 🥉 [cross-encoder/mmarco-mMiniLMv2-L12-H384-v1](https://huggingface.co/cross-encoder/mmarco-mMiniLMv2-L12-H384-v1)
 
@@ -53,18 +57,7 @@ var $result:=$client.rerank.create($query; $parameters)
 |`3`|`0.00003758999629534`⤴|`0.00003786411252804`⤴|`0.00003765087967622`⤴|
 |`2`|`0.00035163012593452`⤵|`0.00016138107457664`⤵|`0.00032641555299051`⤵|
 
-
-
 ---
-
-
-
-
-
-
-
-
-
 
 ### [cross-encoder/ms-marco-MiniLM-L6-v2](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2)
 
