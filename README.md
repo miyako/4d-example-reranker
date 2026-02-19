@@ -62,15 +62,13 @@ var $result:=$client.rerank.create($query; $parameters)
 
 
 
-
-
-### ⚠️ [cross-encoder/ms-marco-MiniLM-L6-v2](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2)
+### [cross-encoder/ms-marco-MiniLM-L6-v2](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2)
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
-|`0`|`0.4982936187771`|`0.3249731361866`|`0.4925831258297`|
-|`3`|`0.48758885823757`|`0.0076748430728912`|`0.48617944121361`|
-|`2`|`0.48588368773412`|`0.012862857431173`|`0.48784512281418`|
+|`0`|`0.4982936187771`|`0.99997627735138`|`0.4925831258297`|
+|`3`|`0.48758885823757`|`0.00002080343438138`|`0.48617944121361`⤴|
+|`2`|`0.48588368773412`||`0.48784512281418`⤵
 
 ---
 
