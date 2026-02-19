@@ -99,7 +99,7 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ### [Qwen/Qwen3-Reranker-0.6B](https://huggingface.co/Qwen/Qwen3-Reranker-0.6B)
 
-> This model is technically an LLM and consumes a lot of computation resources.
+> This model is technically an LLM and consumes a lot of computational resources.
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
