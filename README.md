@@ -87,7 +87,7 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ### [ibm-granite/granite-embedding-reranker-english-r2](https://huggingface.co/ibm-granite/granite-embedding-reranker-english-r2)
 
->  This model is ModernBERT. 
+>  This model is ModernBERT. Export to GGUF is not supported as of February 2026.
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
