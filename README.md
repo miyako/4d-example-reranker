@@ -27,4 +27,13 @@ var $result:=$client.rerank.create($query; $parameters)
 |`3`|`0.0040334316733283`|`0.012791481800377`|`0.0037298486568034`|
 |`2`|`0.00001605949705307`|`0.00007260562415468`|`0.00001607972626516`|
 
+
+### Model: [cross-encoder/mmarco-mMiniLMv2-L12-H384-v1](https://huggingface.co/cross-encoder/mmarco-mMiniLMv2-L12-H384-v1)
+
+||GGUF Q8_0|ONNX Int8|CTranslate Int8| 
+|-|-|-|-
+|`0`|`0.99997075413285`|``|`0.99996781349182`|
+|`3`|`0.021881894500755`|``|`0.02367801591754`|
+|`2`|`0.0037152149705926`|``|`0.0035643121227622`|
+
 <img width="800" height="auto" alt="" src="https://github.com/user-attachments/assets/93b8461d-a892-49fd-bf5c-ef2158a2a4f3" />
