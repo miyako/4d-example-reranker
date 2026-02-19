@@ -2,6 +2,8 @@
 
 Sample project to test AI Kit rerank support
 
+[XLM-RoBERTa](https://huggingface.co/docs/transformers/model_doc/xlm-roberta) seems to have the widest support.
+
 ## Example
 
 ```4d
