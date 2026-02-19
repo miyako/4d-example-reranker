@@ -69,6 +69,16 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ---
 
+### [jinaai/jina-reranker-v1-turbo-en](https://huggingface.co/jinaai/jina-reranker-v1-turbo-en)
+
+||GGUF Q8_0|ONNX Int8|CTranslate Int8
+|-|-|-|-
+|`0`|`0.47711632548651`|`0.26465171575546`⤵||
+|`3`|`0.47559809684731`⤴|`0.27939757704735`⤵||
+|`2`|`0.47688768439384`⤵||
+
+---
+
 ### [Qwen/Qwen3-Reranker-0.6B](https://huggingface.co/Qwen/Qwen3-Reranker-0.6B)
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
