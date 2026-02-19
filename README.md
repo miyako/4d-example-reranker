@@ -51,7 +51,7 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ###  [BAAI/bge-reranker-base](https://huggingface.co/BAAI/bge-reranker-base)
 
-> This model correctly identifies the most relevant document and its significance but fails to see fine details.
+> This model correctly identifies the most relevant document and its general significance but fails to weigh subtle nuances.
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
