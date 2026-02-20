@@ -131,7 +131,7 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ---
 
-### [mixedbread-ai/mxbai-rerank-large-v2](https://huggingface.co/mixedbread-ai/mxbai-rerank-large-v2)
+### [mixedbread-ai/mxbai-rerank-large-v1](https://huggingface.co/mixedbread-ai/mxbai-rerank-large-v1)
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
