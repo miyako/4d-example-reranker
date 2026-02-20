@@ -104,6 +104,16 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ---
 
+### [amberoad/bert-multilingual-passage-reranking-msmarco](https://huggingface.co/amberoad/bert-multilingual-passage-reranking-msmarco)
+
+||GGUF Q8_0|ONNX Int8|CTranslate Int8
+|-|-|-|-
+|`0`||`0.99938893318176`||
+|`3`||`0.00001833355418057`||
+|`2`||`0.00014862575335428`||
+
+---
+
 ### [jinaai/jina-reranker-v1-turbo-en](https://huggingface.co/jinaai/jina-reranker-v1-turbo-en)
 
 > This model seems to have a non standard BERT implementation (`[batch, 1]`).
@@ -135,16 +145,6 @@ var $result:=$client.rerank.create($query; $parameters)
 |`0`||`0.79878783226013`||
 |`3`||`0.67189735174179`||
 |`2`||`0.47672122716904`||
-
----
-
-### [amberoad/bert-multilingual-passage-reranking-msmarco](https://huggingface.co/amberoad/bert-multilingual-passage-reranking-msmarco)
-
-||GGUF Q8_0|ONNX Int8|CTranslate Int8
-|-|-|-|-
-|`0`||`0.99938893318176`||
-|`3`||`0.00001833355418057`||
-|`2`||`0.00014862575335428`||
 
 ---
 
