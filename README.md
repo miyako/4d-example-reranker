@@ -197,7 +197,7 @@ var $result:=$client.rerank.create($query; $parameters)
 ### [jinaai/jina-reranker-v3](https://huggingface.co/jinaai/jina-reranker-v3)
 
 > [!WARNING]
-> The pooling in llama.cpp seems to be totally off. The model works well on [Jina API](https://jina.ai/reranker/).
+> The pooling in llama.cpp is completely off but the model works well on [Jina API](https://jina.ai/reranker/).
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
