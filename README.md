@@ -169,3 +169,13 @@ var $result:=$client.rerank.create($query; $parameters)
 |`0`||||
 |`3`||`0.056449748575687`||
 |`2`||`0.029458915814757`||
+
+---
+
+### [jinaai/jina-reranker-v3](https://huggingface.co/jinaai/jina-reranker-v3)
+
+||GGUF Q8_0|ONNX Int8|CTranslate Int8
+|-|-|-|-
+|`0`|`0.75106662511826`|||
+|`3`||||
+|`2`|`0.24428156018257`|||
