@@ -29,6 +29,12 @@ Some reranker models are repurposed causal LLMs; they process token IDs and outp
 
 ---
 
+Bigger does not necessarily mean better. The additional layers and parameters of a large model probably creates weights that exceeds the dynamic range of `f16` or `bf16`. Quantised "large" models often generate invalid result. It is normally better to use the "base" model.
+
+- [mixedbread-ai/mxbai-rerank-large-v1](https://github.com/miyako/4d-example-reranker/edit/main/README.md#mixedbread-aimxbai-rerank-large-v1)
+
+---
+
 ## Example
 
 ```4d
