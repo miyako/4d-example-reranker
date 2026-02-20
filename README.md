@@ -4,6 +4,23 @@ Sample project to test AI Kit rerank support
 
 [XLM-RoBERTa](https://huggingface.co/docs/transformers/model_doc/xlm-roberta) seems to have the widest support.
 
+Some "reranker" models are technically causal LLMs, meaning, you prompt the AI to rate passages in context.
+
+[`BAAI/bge-reranker-v2-gemma`](https://huggingface.co/BAAI/bge-reranker-v2-gemma)
+
+```json
+{
+  "prompt": "Predict if the following passage is relevant to the query: What is the capital of France?\nPassage: Paris is the capital and most populous city of France.\nOutput:",
+  "n_predict": 1,
+  "temperature": 0.0,
+  "top_k": 1,
+  "top_p": 1.0,
+  "stream": false
+}
+```
+
+Because the prompt does not follow the user/assistant configuration, you must send it to the `/completion` endpoint, not the `chat/completion` endpoint. In any case, these models are no compatible with the `/rerank` endpoint.
+
 ## Example
 
 ```4d
