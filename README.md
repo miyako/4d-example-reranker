@@ -4,7 +4,9 @@ Sample project to test AI Kit rerank support
 
 [XLM-RoBERTa](https://huggingface.co/docs/transformers/model_doc/xlm-roberta) seems to have the widest support.
 
-Some "reranker" models are technically causal LLMs, meaning, you prompt the AI to rate passages in context.
+### Compatibility
+
+Some "reranker" models are technically causal LLMs, meaning, you prompt the AI to rate passages in context. The prompt does not follow the user/assistant configuration, which means you must send it to the `/completion` endpoint, not the `chat/completion` endpoint. In any case, these models are no compatible with the `/rerank` endpoint.
 
 [`BAAI/bge-reranker-v2-gemma`](https://huggingface.co/BAAI/bge-reranker-v2-gemma)
 
@@ -18,8 +20,6 @@ Some "reranker" models are technically causal LLMs, meaning, you prompt the AI t
   "stream": false
 }
 ```
-
-Because the prompt does not follow the user/assistant configuration, you must send it to the `/completion` endpoint, not the `chat/completion` endpoint. In any case, these models are no compatible with the `/rerank` endpoint.
 
 ## Example
 
