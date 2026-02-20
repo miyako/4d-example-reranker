@@ -196,6 +196,7 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ### [jinaai/jina-reranker-v3](https://huggingface.co/jinaai/jina-reranker-v3)
 
+> [!WARNING]
 > The pooling in llama.cpp seems to be totally off.
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
