@@ -92,6 +92,18 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ---
 
+### [Qwen/Qwen3-Reranker-0.6B](https://huggingface.co/Qwen/Qwen3-Reranker-0.6B)
+
+> This model is a repurposed decoder. It performs better on GGUF "K" quants.
+
+||GGUF Q8_0|ONNX Int8|CTranslate Int8
+|-|-|-|-
+|`0`|`0.99849343299866`|`0.3774676322937`||
+|`3`|`0.17696142196655`|`0.19882951676846`|
+|`2`|`0.00014215805276763`|`0.18937009572983`||
+
+---
+
 ### [jinaai/jina-reranker-v1-turbo-en](https://huggingface.co/jinaai/jina-reranker-v1-turbo-en)
 
 > This model seems to have a non standard BERT implementation (`[batch, 1]`).
@@ -169,18 +181,6 @@ var $result:=$client.rerank.create($query; $parameters)
 |`0`||||
 |`3`||`0.056449748575687`||
 |`2`||`0.029458915814757`||
-
----
-
-### [Qwen/Qwen3-Reranker-0.6B](https://huggingface.co/Qwen/Qwen3-Reranker-0.6B)
-
-> This model is a repurposed decoder. It performs better on GGUF "K" quants.
-
-||GGUF Q8_0|ONNX Int8|CTranslate Int8
-|-|-|-|-
-|`0`|`0.99849343299866`|`0.3774676322937`||
-|`3`|`0.17696142196655`|`0.19882951676846`|
-|`2`|`0.00014215805276763`|`0.18937009572983`||
 
 ---
 
