@@ -186,7 +186,7 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ### [Qwen/Qwen3-Reranker-0.6B](https://huggingface.co/Qwen/Qwen3-Reranker-0.6B)
 
-> This model is a repurposed decoder. It consumes a lot of computational resources.
+> This model is a repurposed decoder. It performs better on GGUF "K" quants.
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
