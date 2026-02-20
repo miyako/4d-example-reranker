@@ -21,7 +21,7 @@ Some reranker models are fine tuned causal LLMs; you prompt the AI to rate a set
 }
 ```
 
-Some reranker models are repurposed causal LLMs; they process token IDs and output logits like an encoder, but the interenal architechture is based on a decoder model. These models have a large context window than a classic encoder and tend to capture nuance, but the size is large and the inference is computationally expensive.
+Some reranker models are repurposed causal LLMs; they process token IDs and output logits like an encoder, but the internal architechture is based on a decoder model. These models have a large context window than a classic encoder and tend to capture nuance, but the size is large and the inference is computationally expensive.
 
 ## Example
 
