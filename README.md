@@ -96,6 +96,8 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ### [amberoad/bert-multilingual-passage-reranking-msmarco](https://huggingface.co/amberoad/bert-multilingual-passage-reranking-msmarco)
 
+> No GGUF version available.
+
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
 |`0`||`0.99938893318176`||
