@@ -23,7 +23,7 @@ Some reranker models are fine tuned causal LLMs; you prompt the AI to rate a set
 
 ---
 
-Some reranker models are repurposed causal LLMs; they process token IDs and output logits like an encoder, but the internal architechture is based on a decoder model. These models have a large context window compared to a classic encoder and tend to capture nuance, but the size is large and the inference is computationally expensive.
+Some reranker models are repurposed causal LLMs; they process token IDs and output logits like an encoder, but the internal architechture is based on a decoder model. These models have a large context window compared to a classic encoder and tend to capture subtle nuances, but the size is large and the inference is computationally expensive.
 
 - [`Qwen/Qwen3-Reranker-0.6B`](https://github.com/miyako/4d-example-reranker/blob/main/README.md#qwenqwen3-reranker-06b)
 
@@ -78,7 +78,7 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ###  [BAAI/bge-reranker-base](https://huggingface.co/BAAI/bge-reranker-base)
 
-> This model correctly identifies the most relevant document and its general significance but fails to weigh subtle nuances.
+> This model correctly identifies the most relevant document and its general significance but fails to weigh minor details.
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
