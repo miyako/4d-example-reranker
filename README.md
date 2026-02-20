@@ -154,11 +154,11 @@ var $result:=$client.rerank.create($query; $parameters)
 
 > This model is DeBERTa-v2. Export to GGUF is not supported as of February 2026.
 
-||GGUF Q8_0|ONNX Int8|CTranslate Int8
-|-|-|-|-
-|`0`||`0.76543623209`||
-|`3`||`0.11033684015274`⤵||
-|`2`||||
+||GGUF Q8_0|ONNX F16|ONNX Int8|CTranslate Int8
+|-|-|-|-|-
+|`0`||`0.91985809803009`|`0.76543623209`||
+|`3`||`0.078764326870441`|`0.11033684015274`⤵||
+|`2`|||||
 
 ---
 
