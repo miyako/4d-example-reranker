@@ -87,6 +87,16 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ---
 
+### [jinaai/jina-reranker-v2-base-multilingual](https://huggingface.co/jinaai/jina-reranker-v2-base-multilingual)
+
+||GGUF Q8_0|ONNX Int8|CTranslate Int8
+|-|-|-|-
+|`0`|`0.91580612478166`|``||
+|`3`|`0.19414707725`|``||
+|`2`||``||
+
+---
+
 ### [ibm-granite/granite-embedding-reranker-english-r2](https://huggingface.co/ibm-granite/granite-embedding-reranker-english-r2)
 
 >  This model is ModernBERT. Export to GGUF is not supported as of February 2026.
