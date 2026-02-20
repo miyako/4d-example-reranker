@@ -172,18 +172,6 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ---
 
-### [jinaai/jina-reranker-v3](https://huggingface.co/jinaai/jina-reranker-v3)
-
-> This model is a repurposed decoder. It consumes a lot of computational resources.
-
-||GGUF Q8_0|ONNX Int8|CTranslate Int8
-|-|-|-|-
-|`0`|`0.75106662511826`|||
-|`3`||||
-|`2`|`0.24428156018257`|||
-
----
-
 ### [Qwen/Qwen3-Reranker-0.6B](https://huggingface.co/Qwen/Qwen3-Reranker-0.6B)
 
 > This model is a repurposed decoder. It performs better on GGUF "K" quants.
@@ -193,3 +181,15 @@ var $result:=$client.rerank.create($query; $parameters)
 |`0`|`0.99849343299866`|`0.3774676322937`||
 |`3`|`0.17696142196655`|`0.19882951676846`|
 |`2`|`0.00014215805276763`|`0.18937009572983`||
+
+---
+
+### [jinaai/jina-reranker-v3](https://huggingface.co/jinaai/jina-reranker-v3)
+
+> This model is a repurposed decoder. It consumes a lot of computational resources.
+
+||GGUF Q8_0|ONNX Int8|CTranslate Int8
+|-|-|-|-
+|`0`|`0.75106662511826`|||
+|`3`||||
+|`2`|`0.24428156018257`|||
