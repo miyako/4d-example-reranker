@@ -6,7 +6,7 @@ Sample project to test AI Kit rerank support
 
 ### Compatibility
 
-Some "reranker" models are fine tuned causal LLMs; you prompt the AI to rate a set of passages based on thier relevance to a query. The prompt does not follow the user/assistant configuration, which means you must send it to the `/completion` endpoint, not the `chat/completion` endpoint. In any case, these models are no compatible with the `/rerank` endpoint.
+Some reranker models are fine tuned causal LLMs; you prompt the AI to rate a set of passages based on thier relevance to a query. The prompt does not follow the user/assistant configuration, which means you must send it to the `/completion` endpoint, not the `chat/completion` endpoint. In any case, these models are no compatible with the `/rerank` endpoint.
 
 [`BAAI/bge-reranker-v2-gemma`](https://huggingface.co/BAAI/bge-reranker-v2-gemma)
 
@@ -20,6 +20,8 @@ Some "reranker" models are fine tuned causal LLMs; you prompt the AI to rate a s
   "stream": false
 }
 ```
+
+Some reranker models are repurposed causal LLMs; they take the same input as encoders but the interenal architechture is a decoder designed to output logits. The models are large and computationally heavy.
 
 ## Example
 
