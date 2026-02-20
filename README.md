@@ -184,13 +184,16 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ### [mixedbread-ai/mxbai-rerank-large-v1](https://huggingface.co/mixedbread-ai/mxbai-rerank-large-v1)
 
+> [!WARNING]
+> The model seems to require non standard pooling.
+
 > This model is DeBERTa-v2. Export to GGUF is not supported as of February 2026.
 
 ||GGUF Q8_0|ONNX F16|ONNX Int8|CTranslate Int8
 |-|-|-|-|-
-|`0`|||`0.050157018005848`⤵||
-|`3`|||||
-|`2`|||`0.071954950690269`⤴||
+|`0`||`0.050157018005848`⤵||
+|`3`||||
+|`2`||`0.071954950690269`⤴||
 
 ---
 
