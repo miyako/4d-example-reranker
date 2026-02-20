@@ -185,7 +185,7 @@ var $result:=$client.rerank.create($query; $parameters)
 ### [mixedbread-ai/mxbai-rerank-large-v1](https://huggingface.co/mixedbread-ai/mxbai-rerank-large-v1)
 
 > [!WARNING]
-> The weights might have collapsed in this model. Notice the superior results in base and xsmall.
+> The model might have collapsed under its own weight. Notice the superior results in base and xsmall.
 
 > This model is DeBERTa-v2. Export to GGUF is not supported as of February 2026.
 
