@@ -174,7 +174,7 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ### [jinaai/jina-reranker-v3](https://huggingface.co/jinaai/jina-reranker-v3)
 
-> This model is a repurposed decoder model. It consumes a lot of computational resources.
+> This model is a repurposed decoder. It consumes a lot of computational resources.
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
