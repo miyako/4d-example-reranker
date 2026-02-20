@@ -99,12 +99,14 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ---
 
-### [Qwen/Qwen3-Reranker-0.6B](https://huggingface.co/Qwen/Qwen3-Reranker-0.6B)
-
-> This model is technically an LLM and consumes a lot of computational resources.
+### [amberoad/bert-multilingual-passage-reranking-msmarco](https://huggingface.co/amberoad/bert-multilingual-passage-reranking-msmarco)
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
-|`0`|`0.99849343299866`|`0.3774676322937`||
-|`3`|`0.17696142196655`|`0.19882951676846`||
-|`2`|`0.00014215805276763`|`0.18937009572983`||
+|`0`|``|`0.99938893318176`||
+|`3`|``|`0.00001833355418057`||
+|`2`|``|`0.00014862575335428`||
+
+---
+
+
