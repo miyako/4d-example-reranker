@@ -197,6 +197,7 @@ var $result:=$client.rerank.create($query; $parameters)
 ### [jinaai/jina-reranker-v3](https://huggingface.co/jinaai/jina-reranker-v3)
 
 > This model is a repurposed decoder. It consumes a lot of computational resources.
+> The pooling seems to be off.
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
