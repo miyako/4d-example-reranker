@@ -80,18 +80,6 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ---
 
-### [cross-encoder/ms-marco-MiniLM-L6-v2](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2)
-
-> This model is BERT, not XLM-RoBERTa. The flat results suggest a bug in BERT reranking (not using token type IDs).
-
-||GGUF F16|ONNX F16|CTranslate Int8
-|-|-|-|-
-|`0`|`0.4982936187771`|`0.99997842311859`|`0.4925831258297`|
-|`3`|`0.48758885823757`|`0.00002105345265591`|`0.48617944121361`⤴|
-|`2`|`0.48588368773412`|`0.00001613207132323`
-
----
-
 ### [Qwen/Qwen3-Reranker-0.6B](https://huggingface.co/Qwen/Qwen3-Reranker-0.6B)
 
 > This model is a repurposed decoder. It performs better on GGUF "K" quants.
@@ -111,6 +99,18 @@ var $result:=$client.rerank.create($query; $parameters)
 |`0`||`0.99938893318176`||
 |`3`||`0.00001833355418057`||
 |`2`||`0.00014862575335428`||
+
+---
+
+### [cross-encoder/ms-marco-MiniLM-L6-v2](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2)
+
+> This model is BERT, not XLM-RoBERTa. The flat results suggest a bug in BERT reranking (not using token type IDs).
+
+||GGUF F16|ONNX F16|CTranslate Int8
+|-|-|-|-
+|`0`|`0.4982936187771`|`0.99997842311859`|`0.4925831258297`|
+|`3`|`0.48758885823757`|`0.00002105345265591`|`0.48617944121361`⤴|
+|`2`|`0.48588368773412`|`0.00001613207132323`
 
 ---
 
