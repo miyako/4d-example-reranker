@@ -2,7 +2,9 @@
 
 Sample project to test AI Kit rerank support
 
-[XLM-RoBERTa](https://huggingface.co/docs/transformers/model_doc/xlm-roberta) seems to have the widest support.
+[`XLM-RoBERTa`](https://huggingface.co/docs/transformers/model_doc/xlm-roberta) seems to have the widest support.
+
+llama.cpp seems to default to `XLM-RoBERTa` making [`BERT`](https://huggingface.co/docs/transformers/model_doc/bert) reranking incorrect.
 
 ### Compatibility
 
