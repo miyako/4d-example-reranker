@@ -8,8 +8,6 @@ Sample project to test AI Kit rerank support
 
 Some reranker models are fine tuned causal LLMs; you prompt the AI to rate a set of passages based on thier relevance to a query. The prompt does not follow the user/assistant configuration, which means you must send it to the `/completion` endpoint, not the `chat/completion` endpoint. In any case, these models are no compatible with the `/rerank` endpoint.
 
-[`BAAI/bge-reranker-v2-gemma`](https://huggingface.co/BAAI/bge-reranker-v2-gemma)
-
 ```json
 {
   "prompt": "Predict if the following passage is relevant to the query: What is the capital of France?\nPassage: Paris is the capital and most populous city of France.\nOutput:",
@@ -21,7 +19,15 @@ Some reranker models are fine tuned causal LLMs; you prompt the AI to rate a set
 }
 ```
 
+- [`BAAI/bge-reranker-v2-gemma`](https://huggingface.co/BAAI/bge-reranker-v2-gemma)
+
+---
+
 Some reranker models are repurposed causal LLMs; they process token IDs and output logits like an encoder, but the internal architechture is based on a decoder model. These models have a large context window than a classic encoder and tend to capture nuance, but the size is large and the inference is computationally expensive.
+
+- [`Qwen/Qwen3-Reranker-0.6B`](https://github.com/miyako/4d-example-reranker/blob/main/README.md#qwenqwen3-reranker-06b)
+
+---
 
 ## Example
 
