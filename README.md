@@ -67,11 +67,11 @@ var $result:=$client.rerank.create($query; $parameters)
 
 > This model is BERT, not XLM-RoBERTa. The flat results suggest a bug in BERT reranking (not using token type IDs).
 
-||GGUF Q8_0|ONNX Int8|CTranslate Int8
+||GGUF F16|ONNX F16|CTranslate Int8
 |-|-|-|-
-|`0`|`0.4982936187771`|`0.99997627735138`|`0.4925831258297`|
-|`3`|`0.48758885823757`|`0.00002080343438138`|`0.48617944121361`⤴|
-|`2`|`0.48588368773412`||`0.48784512281418`⤵
+|`0`|`0.4982936187771`|`0.99997842311859`|`0.4925831258297`|
+|`3`|`0.48758885823757`|`0.00002105345265591`|`0.48617944121361`⤴|
+|`2`|`0.48588368773412`||`0.00001613207132323`
 
 ---
 
@@ -129,3 +129,12 @@ var $result:=$client.rerank.create($query; $parameters)
 |`3`||`0.11033684015274`⤵||
 |`2`||||
 
+---
+
+### [mixedbread-ai/mxbai-rerank-large-v2](https://huggingface.co/mixedbread-ai/mxbai-rerank-large-v2)
+
+||GGUF Q8_0|ONNX Int8|CTranslate Int8
+|-|-|-|-
+|`0`||||
+|`3`||`0.056449748575687`||
+|`2`||`0.029458915814757`||
