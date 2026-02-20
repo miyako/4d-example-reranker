@@ -174,11 +174,11 @@ var $result:=$client.rerank.create($query; $parameters)
 
 > This model is DeBERTa-v2. Export to GGUF is not supported as of February 2026.
 
-||GGUF Q8_0|ONNX Int8|CTranslate Int8
-|-|-|-|-
-|`0`||`0.23237489163876`||
-|`3`||`0.19631579518318`||
-|`2`||||
+||GGUF Q8_0|ONNX F16|ONNX Int8|CTranslate Int8
+|-|-|-|-|-
+|`0`|||`0.23237489163876`||
+|`3`|||`0.19631579518318`||
+|`2`|||||
 
 ---
 
@@ -186,11 +186,11 @@ var $result:=$client.rerank.create($query; $parameters)
 
 > This model is DeBERTa-v2. Export to GGUF is not supported as of February 2026.
 
-||GGUF Q8_0|ONNX Int8|CTranslate Int8
-|-|-|-|-
-|`0`||||
-|`3`||`0.056449748575687`||
-|`2`||`0.029458915814757`||
+||GGUF Q8_0|ONNX F16|ONNX Int8|CTranslate Int8
+|-|-|-|-|-
+|`0`|||||
+|`3`|||`0.056449748575687`||
+|`2`|||`0.029458915814757`||
 
 ---
 
