@@ -120,7 +120,7 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ### [cross-encoder/ms-marco-MiniLM-L6-v2](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2)
 
-> This model is BERT, not XLM-RoBERTa. The flat results suggest a bug in BERT reranking (not using token type IDs).
+> This model is BERT, not XLM-RoBERTa. The flat results suggest a `llama.cpp` bug in BERT reranking (not using token type IDs).
 
 ||GGUF F16|GGUF Q8_0|ONNX F16|ONNX Int8|CTranslate Int8
 |-|-|-|-|-|-
