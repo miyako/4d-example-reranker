@@ -108,13 +108,13 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ### [amberoad/bert-multilingual-passage-reranking-msmarco](https://huggingface.co/amberoad/bert-multilingual-passage-reranking-msmarco)
 
-> This model is BERT. No GGUF or CTranslate2 version available.
+> This model is BERT. No GGUF version available.
 
 ||GGUF Q8_0|ONNX F16|ONNX Int8|CTranslate Int8
 |-|-|-|-|-
-|`0`||`0.99972993135452`|`0.99938893318176`||
-|`3`||`0.00001711601180432`|`0.00001833355418057`||
-|`2`||`0.00001573694680701`|`0.00014862575335428`||
+|`0`||`0.99972993135452`|`0.99938893318176`|`0.9980161190033`|
+|`3`||`0.00001711601180432`|`0.00001833355418057`|`0.0012083178153262`|
+|`2`||`0.00001573694680701`|`0.00014862575335428`|`0.0004223593568895`|
 
 ---
 
