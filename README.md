@@ -144,6 +144,8 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ### [jinaai/jina-reranker-v2-base-multilingual](https://huggingface.co/jinaai/jina-reranker-v2-base-multilingual)
 
+> This model seems to be a custom variation of XLM-RoBERTa. No ONNX or CTranslate2 version available.
+
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
 |`0`|`0.91580612478166`|||
