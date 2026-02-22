@@ -110,13 +110,13 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ### [Qwen/Qwen3-Reranker-0.6B](https://huggingface.co/Qwen/Qwen3-Reranker-0.6B)
 
-> This model is a repurposed decoder. The pooling on ONNX might be incorrect [#1](https://github.com/miyako/4d-example-reranker/issues/1).
+> This model is a repurposed decoder. Pass `{pooling: "last-token"}` to ONNX.
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
-|`0`|`0.99849343299866`|`0.3774676322937`||
-|`3`|`0.17696142196655`|`0.19882951676846`|
-|`2`|`0.00014215805276763`|`0.18937009572983`||
+|`0`|`0.99849343299866`|`0.99997842311859`||
+|`3`|`0.17696142196655`|`0.00002105345265591`|
+|`2`|`0.00014215805276763`|`0.00001613207132323`||
 
 ---
 
