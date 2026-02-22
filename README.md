@@ -110,7 +110,7 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ### [Qwen/Qwen3-Reranker-0.6B](https://huggingface.co/Qwen/Qwen3-Reranker-0.6B)
 
-> This model is a repurposed decoder. Pass `{pooling: "last-token"}` to ONNX.
+> This model is a repurposed decoder.
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
