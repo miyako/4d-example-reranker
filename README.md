@@ -110,7 +110,7 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ### [Qwen/Qwen3-Reranker-0.6B](https://huggingface.co/Qwen/Qwen3-Reranker-0.6B)
 
-> This model is a repurposed decoder. It performs better on GGUF "K" quants. Also the pooling on ONNX might be incorrect.
+> This model is a repurposed decoder. It performs better on GGUF "K" quants. Also the pooling on ONNX might be incorrect [#1](https://github.com/miyako/4d-example-reranker/issues/1).
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
