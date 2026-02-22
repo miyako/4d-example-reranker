@@ -42,6 +42,13 @@ Bigger does not necessarily mean better. The additional layers and parameters of
 
 ---
 
+`DeBERTa-v2` rerankers significantly deteriorate when quantised using `int8`. 
+
+- [`ibm-granite/granite-embedding-reranker-english-r2`](https://github.com/miyako/4d-example-reranker/blob/main/README.md#ibm-granitegranite-embedding-reranker-english-r2)
+- [`mixedbread-ai/mxbai-rerank-xsmall-v1`](https://github.com/miyako/4d-example-reranker/blob/main/README.md#mixedbread-aimxbai-rerank-xsmall-v1)
+
+---
+
 ## Example
 
 ```4d
