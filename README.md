@@ -146,7 +146,7 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ### [jinaai/jina-reranker-v1-turbo-en](https://huggingface.co/jinaai/jina-reranker-v1-turbo-en)
 
-> This model seems to have a non standard BERT implementation (`[batch, 1]`).
+> This model seems like a non standard BERT implementation.
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
