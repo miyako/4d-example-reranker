@@ -37,8 +37,8 @@ Bigger does not necessarily mean better. The additional layers and parameters of
 
 `llama.cpp` supports both `XLM-RoBERTa` and LLM (qwen) rerankers but not BERT rerankers.
 
-- [amberoad/bert-multilingual-passage-reranking-msmarco](https://github.com/miyako/4d-example-reranker#amberoadbert-multilingual-passage-reranking-msmarco)
-- [cross-encoder/ms-marco-MiniLM-L6-v2](https://github.com/miyako/4d-example-reranker?tab=readme-ov-file#cross-encoderms-marco-minilm-l6-v2)
+- [`amberoad/bert-multilingual-passage-reranking-msmarco`](https://github.com/miyako/4d-example-reranker#amberoadbert-multilingual-passage-reranking-msmarco)
+- [`cross-encoder/ms-marco-MiniLM-L6-v2`](https://github.com/miyako/4d-example-reranker?tab=readme-ov-file#cross-encoderms-marco-minilm-l6-v2)
 
 ---
 
