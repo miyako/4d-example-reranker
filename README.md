@@ -120,6 +120,18 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ---
 
+### [Qwen/Qwen3-Reranker-4B](https://huggingface.co/Qwen/Qwen3-Reranker-4B)
+
+> This model is a repurposed decoder.
+
+||GGUF Q8_0|GGUF Q4_K_M|ONNX Int8|CTranslate Int8
+|-|-|-|-|-
+|`0`|`0.99664956331253`|`0.99508684873581`|||
+|`3`|`0.78410738706589`|`0.74128645658493`||
+|`2`|`0.00003427601041039`|`0.00001430954580428`|||
+
+---
+
 ### [amberoad/bert-multilingual-passage-reranking-msmarco](https://huggingface.co/amberoad/bert-multilingual-passage-reranking-msmarco)
 
 > This model is BERT. No GGUF version available.
