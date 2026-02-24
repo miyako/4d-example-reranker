@@ -110,13 +110,13 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ### [Qwen/Qwen3-Reranker-0.6B](https://huggingface.co/Qwen/Qwen3-Reranker-0.6B)
 
-> This model is a repurposed decoder.
+> This model is a repurposed decoder. The ONNX implementation is incorrect. 
 
-||GGUF Q8_0|ONNX Int8|CTranslate Int8
-|-|-|-|-
-|`0`|`0.99849343299866`|`0.52017343044281`||
-|`3`|`0.17696142196655`|`0.3717437684536`|
-|`2`|`0.00014215805276763`|`0.26183041930199`||
+||GGUF Q8_0|ONNX F32|ONNX Int8|CTranslate Int8
+|-|-|-|-|-
+|`0`|`0.99849343299866`|`0.78088539838791`⤵|`0.52017343044281`||
+|`3`|`0.17696142196655`||`0.3717437684536`|
+|`2`|`0.00014215805276763`|`0.8721165060997`⤴|`0.26183041930199`||
 
 ---
 
