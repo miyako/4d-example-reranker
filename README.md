@@ -197,8 +197,7 @@ var $result:=$client.rerank.create($query; $parameters)
 ---
 
 ### [jinaai/jina-reranker-v2-base-multilingual](https://huggingface.co/jinaai/jina-reranker-v2-base-multilingual)
-
-> This model seems to be a custom variation of XLM-RoBERTa. No ONNX or CTranslate2 version available.
+`XLM-RoBERTa`
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
@@ -209,8 +208,7 @@ var $result:=$client.rerank.create($query; $parameters)
 ---
 
 ### [ibm-granite/granite-embedding-reranker-english-r2](https://huggingface.co/ibm-granite/granite-embedding-reranker-english-r2)
-
->  This model is ModernBERT. Export to GGUF is not supported as of February 2026.
+`ModernBERT`
 
 ||GGUF Q8_0|ONNX F16|ONNX Int8|CTranslate Int8
 |-|-|-|-|-
@@ -222,8 +220,6 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ### [mixedbread-ai/mxbai-rerank-xsmall-v1](https://huggingface.co/mixedbread-ai/mxbai-rerank-xsmall-v1)
 `DeBERTa-v2`
-
-> This model is DeBERTa-v2. Export to GGUF is not supported as of February 2026.
 
 ||GGUF Q8_0|ONNX F16|ONNX Int8|CTranslate Int8
 |-|-|-|-|-
