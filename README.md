@@ -175,7 +175,7 @@ var $result:=$client.rerank.create($query; $parameters)
 `BERT`
 
 > [!WARNING]
-> The scores in llama.cpp are off
+> The scores in llama.cpp are off.
  
 ||GGUF F16|GGUF Q8_0|ONNX F16|ONNX Int8|CTranslate Int8
 |-|-|-|-|-|-
