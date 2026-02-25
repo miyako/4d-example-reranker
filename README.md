@@ -246,7 +246,7 @@ var $result:=$client.rerank.create($query; $parameters)
 ### [jinaai/jina-reranker-v3](https://huggingface.co/jinaai/jina-reranker-v3)
 
 > [!WARNING]
-> The scores in llama.cpp is completely off but the model works well on [Jina AI](https://jina.ai/reranker/).
+> The scores in llama.cpp are completely off but the model works well on [Jina AI](https://jina.ai/reranker/).
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
@@ -259,7 +259,7 @@ var $result:=$client.rerank.create($query; $parameters)
 ### [zeroentropy/zerank-1-small](https://huggingface.co/zeroentropy/zerank-1-small)
 
 > [!WARNING]
-> The scores in llama.cpp is completely off.
+> The scores in llama.cpp are completely off.
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
