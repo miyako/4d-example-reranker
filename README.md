@@ -219,6 +219,9 @@ var $result:=$client.rerank.create($query; $parameters)
 ### [ibm-granite/granite-embedding-reranker-english-r2](https://huggingface.co/ibm-granite/granite-embedding-reranker-english-r2)
 `ModernBERT`
 
+> [!WARNING]
+> Integer scores are low in precision.
+ 
 ||GGUF Q8_0|ONNX F16|ONNX Int8|
 |-|-|-|-|
 |`0`||`0.91985809803009`|`0.79878783226013`||
@@ -230,6 +233,9 @@ var $result:=$client.rerank.create($query; $parameters)
 ### [mixedbread-ai/mxbai-rerank-xsmall-v1](https://huggingface.co/mixedbread-ai/mxbai-rerank-xsmall-v1)
 `DeBERTa-v2`
 
+> [!WARNING]
+> Integer scores are low in precision.
+
 ||GGUF Q8_0|ONNX F16|ONNX Int8|
 |-|-|-|-|
 |`0`||`0.91985809803009`|`0.76543623209`||
@@ -240,6 +246,9 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ### [mixedbread-ai/-rerank-base-v1](https://huggingface.co/mixedbread-ai/mxbai-rerank-base-v1)
 `DeBERTa-v2`
+
+> [!WARNING]
+> Integer scores are low in precision.
 
 ||GGUF Q8_0|ONNX F16|ONNX Int8|
 |-|-|-|-|
