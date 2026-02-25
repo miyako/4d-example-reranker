@@ -248,8 +248,7 @@ var $result:=$client.rerank.create($query; $parameters)
 
 > [!WARNING]
 > The model might have collapsed under its own weight. Notice the superior results in base and xsmall.
-
-> This model is DeBERTa-v2. `llama.cpp` scores are off.
+> The scores in llama.cpp are completely off.
 
 ||GGUF Q8_0|ONNX F16|ONNX Int8|CTranslate Int8
 |-|-|-|-|-
