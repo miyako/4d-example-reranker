@@ -267,7 +267,7 @@ var $result:=$client.rerank.create($query; $parameters)
 `Qwen3`
 
 > [!WARNING]
-> The scores in llama.cpp are  off but the model works well on [Jina AI](https://jina.ai/reranker/).
+> The scores in llama.cpp are off but the model works well on [Jina AI](https://jina.ai/reranker/).
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
@@ -280,8 +280,11 @@ var $result:=$client.rerank.create($query; $parameters)
 ### [zeroentropy/zerank-1-small](https://huggingface.co/zeroentropy/zerank-1-small)
 `Qwen3`
 
+> [!WARNING]
+> The scores are off.
+
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
-|`0`|`3.272465469603e-17`⤵|||
-|`3`|`7.827476960511e-18`⤵|||
+|`0`|`3.272465469603e-17`⤵|`0.96800327301025`⤵||
+|`3`|`7.827476960511e-18`⤵|`0.94187527894974`⤵||
 |`2`||||
