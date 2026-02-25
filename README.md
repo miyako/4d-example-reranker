@@ -253,3 +253,16 @@ var $result:=$client.rerank.create($query; $parameters)
 |`0`|`0.75106662511826`|||
 |`3`||||
 |`2`|`0.24428156018257`|||
+
+---
+
+### [zeroentropy/zerank-1-small](https://huggingface.co/zeroentropy/zerank-1-small)
+
+> [!WARNING]
+> The pooling in llama.cpp is completely off.
+
+||GGUF Q8_0|ONNX Int8|CTranslate Int8
+|-|-|-|-
+|`0`|`3.272465469603e-17`⤵|||
+|`3`|`7.827476960511e-18`⤵|||
+|`2`||||
