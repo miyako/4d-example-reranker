@@ -266,3 +266,13 @@ var $result:=$client.rerank.create($query; $parameters)
 |`0`|`3.272465469603e-17`⤵|||
 |`3`|`7.827476960511e-18`⤵|||
 |`2`||||
+
+---
+
+### [maidalun1020/bce-reranker-base_v1](https://huggingface.co/maidalun1020/bce-reranker-base_v1)
+
+||GGUF Q8_0|ONNX Int8|CTranslate Int8
+|-|-|-|-
+|`0`|`0.66729423323589`||`0.82112324237823`|
+|`3`|`0.43259480279184`||`0.62696254253387`|
+|`2`|`0.38427266104648`||`0.52052652835846`|
