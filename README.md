@@ -119,8 +119,8 @@ var $result:=$client.rerank.create($query; $parameters)
 ### [Qwen/Qwen3-Reranker-0.6B](https://huggingface.co/Qwen/Qwen3-Reranker-0.6B)
 `Qwen3`
 
-||GGUF Q8_0|ONNX Int8|CTranslate Int8
-|-|-|-|-
+||GGUF Q8_0|ONNX Int8|
+|-|-|-|
 |`0`|`0.99849343299866`|`0.11751576513052`||
 |`3`|`0.17696142196655`|`0.090718969702721`|
 |`2`|`0.00014215805276763`|`0.080813035368919`||
@@ -130,8 +130,8 @@ var $result:=$client.rerank.create($query; $parameters)
 ### [Qwen/Qwen3-Reranker-4B](https://huggingface.co/Qwen/Qwen3-Reranker-4B)
 `Qwen3`
 
-||GGUF Q8_0|GGUF Q4_K_M|ONNX Int8|CTranslate Int8
-|-|-|-|-|-
+||GGUF Q8_0|GGUF Q4_K_M|ONNX Int8|
+|-|-|-|-|
 |`0`|`0.99664956331253`|`0.99508684873581`|`0.89622062444687`||
 |`3`|`0.78410738706589`|`0.74128645658493`||
 |`2`|`0.00003427601041039`|`0.00001430954580428`|`0.73410618305206`⤴||
@@ -141,8 +141,8 @@ var $result:=$client.rerank.create($query; $parameters)
 ### [ContextualAI/ctxl-rerank-v2-instruct-multilingual-1b](https://huggingface.co/ContextualAI/ctxl-rerank-v2-instruct-multilingual-1b)
 `Qwen3`
 
-||GGUF Q8_0|GGUF Q4_K_M|ONNX Int8|CTranslate Int8
-|-|-|-|-|-
+||GGUF Q8_0|GGUF Q4_K_M|ONNX Int8|
+|-|-|-|-|
 |`0`|`9.4151462651145E-30`|`2.0864364569468E-30`|`0.60062056779861`||
 |`3`|`8.8091215631413E-30`|`5.9291352010278E-31`|`0.50628370046616`⤵|
 |`2`|`4.313235214862E-30`|`4.2437697053386E-31`|||
@@ -257,8 +257,8 @@ var $result:=$client.rerank.create($query; $parameters)
 > [!WARNING]
 > The scores in llama.cpp are off but the model works well on [Jina AI](https://jina.ai/reranker/).
 
-||GGUF Q8_0|ONNX Int8|CTranslate Int8
-|-|-|-|-
+||GGUF Q8_0|ONNX Int8|
+|-|-|-|
 |`0`|`0.75106662511826`|||
 |`3`||||
 |`2`|`0.24428156018257`|||
@@ -271,8 +271,8 @@ var $result:=$client.rerank.create($query; $parameters)
 > [!WARNING]
 > The scores are off.
 
-||GGUF Q8_0|ONNX Int8|CTranslate Int8
-|-|-|-|-
+||GGUF Q8_0|ONNX Int8|
+|-|-|-|
 |`0`|`3.272465469603e-17`⤵|`0.96800327301025`⤵||
 |`3`|`7.827476960511e-18`⤵|`0.94187527894974`⤵||
 |`2`||||
