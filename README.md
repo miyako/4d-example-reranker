@@ -276,3 +276,23 @@ var $result:=$client.rerank.create($query; $parameters)
 |`0`|`0.66729423323589`|`0.69750744104385`|`0.82112324237823`|
 |`3`|`0.43259480279184`|`0.43118476867676`|`0.62696254253387`|
 |`2`|`0.38427266104648`|`0.38333082199097`|`0.52052652835846`|
+
+---
+
+### [zenlm/zen3-reranker-small](https://huggingface.co/zenlm/zen3-reranker-small)
+
+||GGUF Q8_0|ONNX Int8|CTranslate Int8
+|-|-|-|-
+|`0`|``|``|``|
+|`3`|``|``|``|
+|`2`|``|``|``|
+
+---
+
+### [zenlm/zen3-reranker-medium](https://huggingface.co/zenlm/zen3-reranker-medium)
+
+||GGUF Q8_0|ONNX Int8|CTranslate Int8
+|-|-|-|-
+|`0`|``|``|``|
+|`3`|``|``|``|
+|`2`|``|``|``|
