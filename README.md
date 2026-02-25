@@ -221,6 +221,7 @@ var $result:=$client.rerank.create($query; $parameters)
 ---
 
 ### [mixedbread-ai/mxbai-rerank-xsmall-v1](https://huggingface.co/mixedbread-ai/mxbai-rerank-xsmall-v1)
+`DeBERTa-v2`
 
 > This model is DeBERTa-v2. Export to GGUF is not supported as of February 2026.
 
@@ -228,13 +229,12 @@ var $result:=$client.rerank.create($query; $parameters)
 |-|-|-|-|-
 |`0`||`0.91985809803009`|`0.76543623209`||
 |`3`||`0.078764326870441`|`0.11033684015274`⤵||
-|`2`|``||||
+|`2`|||||
 
 ---
 
 ### [mixedbread-ai/-rerank-base-v1](https://huggingface.co/mixedbread-ai/mxbai-rerank-base-v1)
-
-> This model is DeBERTa-v2. Export to GGUF is not supported as of February 2026.
+`DeBERTa-v2`
 
 ||GGUF Q8_0|ONNX F16|ONNX Int8|CTranslate Int8
 |-|-|-|-|-
@@ -245,10 +245,10 @@ var $result:=$client.rerank.create($query; $parameters)
 ---
 
 ### [mixedbread-ai/mxbai-rerank-large-v1](https://huggingface.co/mixedbread-ai/mxbai-rerank-large-v1)
+`DeBERTa-v2`
 
 > [!WARNING]
-> The model might have collapsed under its own weight. Notice the superior results in base and xsmall.
-> The scores in llama.cpp are completely off.
+> The model might have collapsed under its own weight. 
 
 ||GGUF Q8_0|ONNX F16|ONNX Int8|CTranslate Int8
 |-|-|-|-|-
@@ -259,9 +259,10 @@ var $result:=$client.rerank.create($query; $parameters)
 ---
 
 ### [jinaai/jina-reranker-v3](https://huggingface.co/jinaai/jina-reranker-v3)
+`Qwen3`
 
 > [!WARNING]
-> The scores in llama.cpp are completely off but the model works well on [Jina AI](https://jina.ai/reranker/).
+> The scores in llama.cpp are  off but the model works well on [Jina AI](https://jina.ai/reranker/).
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
@@ -272,9 +273,7 @@ var $result:=$client.rerank.create($query; $parameters)
 ---
 
 ### [zeroentropy/zerank-1-small](https://huggingface.co/zeroentropy/zerank-1-small)
-
-> [!WARNING]
-> The scores in llama.cpp are completely off.
+`Qwen3`
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
