@@ -152,6 +152,9 @@ var $result:=$client.rerank.create($query; $parameters)
 ### [Qwen/Qwen3-Reranker-4B](https://huggingface.co/Qwen/Qwen3-Reranker-4B)
 `Qwen3`
 
+> [!WARNING]
+> ONNX scores are mushed.
+
 ||GGUF Q8_0|GGUF Q4_K_M|ONNX Int8|
 |-|-|-|-|
 |`0`|`0.99664956331253`|`0.99508684873581`|`0.89622062444687`||
