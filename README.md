@@ -103,7 +103,7 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ---
 
-###  [BAAI/bge-reranker-base](https://huggingface.co/BAAI/bge-reranker-base)
+### 🥉 [BAAI/bge-reranker-base](https://huggingface.co/BAAI/bge-reranker-base)
 `XLM-RoBERTa`
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
@@ -116,7 +116,7 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ---
 
-### [Qwen/Qwen3-Reranker-0.6B](https://huggingface.co/Qwen/Qwen3-Reranker-0.6B)
+### 🥉 [Qwen/Qwen3-Reranker-0.6B](https://huggingface.co/Qwen/Qwen3-Reranker-0.6B)
 `Qwen3`
 
 ||GGUF Q8_0|ONNX Int8|
@@ -127,7 +127,7 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ---
 
-### [jinaai/jina-reranker-v2-base-multilingual](https://huggingface.co/jinaai/jina-reranker-v2-base-multilingual)
+### 🥉 [jinaai/jina-reranker-v2-base-multilingual](https://huggingface.co/jinaai/jina-reranker-v2-base-multilingual)
 `XLM-RoBERTa` with [`flash attention`](https://huggingface.co/jinaai/xlm-roberta-flash-implementation-onnx)
 
 ||GGUF Q8_0|ONNX Int8|
@@ -135,6 +135,17 @@ var $result:=$client.rerank.create($query; $parameters)
 |`0`|`0.91580612478166`|`0.9150967001915`||
 |`3`|`0.19414707725`|`0.19158935546875`||
 |`2`||||
+
+---
+
+### 🥉 [amberoad/bert-multilingual-passage-reranking-msmarco](https://huggingface.co/amberoad/bert-multilingual-passage-reranking-msmarco)
+`BERT`
+
+||GGUF Q8_0|ONNX F16|ONNX Int8|CTranslate Int8
+|-|-|-|-|-
+|`0`||`0.99972993135452`|`0.99938893318176`|`0.9980161190033`|
+|`3`||`0.00001711601180432`|`0.00001833355418057`|`0.0012083178153262`|
+|`2`||`0.00001573694680701`|`0.00014862575335428`|`0.0004223593568895`|
 
 ---
 
@@ -160,20 +171,12 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ---
 
-### [amberoad/bert-multilingual-passage-reranking-msmarco](https://huggingface.co/amberoad/bert-multilingual-passage-reranking-msmarco)
-`BERT`
-
-||GGUF Q8_0|ONNX F16|ONNX Int8|CTranslate Int8
-|-|-|-|-|-
-|`0`||`0.99972993135452`|`0.99938893318176`|`0.9980161190033`|
-|`3`||`0.00001711601180432`|`0.00001833355418057`|`0.0012083178153262`|
-|`2`||`0.00001573694680701`|`0.00014862575335428`|`0.0004223593568895`|
-
----
-
 ### [cross-encoder/ms-marco-MiniLM-L6-v2](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2)
 `BERT`
 
+> [!WARNING]
+> The scores in llama.cpp are off
+ 
 ||GGUF F16|GGUF Q8_0|ONNX F16|ONNX Int8|CTranslate Int8
 |-|-|-|-|-|-
 |`0`|`0.4982936187771`|`0.4982936187771`|`0.99997842311859`|`0.99997627735138`|`1`|
