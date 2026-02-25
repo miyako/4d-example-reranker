@@ -207,8 +207,8 @@ var $result:=$client.rerank.create($query; $parameters)
 ### [ibm-granite/granite-embedding-reranker-english-r2](https://huggingface.co/ibm-granite/granite-embedding-reranker-english-r2)
 `ModernBERT`
 
-||GGUF Q8_0|ONNX F16|ONNX Int8|CTranslate Int8
-|-|-|-|-|-
+||GGUF Q8_0|ONNX F16|ONNX Int8|
+|-|-|-|-|
 |`0`||`0.91985809803009`|`0.79878783226013`||
 |`3`||`0.078764326870441`|`0.67189735174179`||
 |`2`|||`0.47672122716904`||
@@ -218,8 +218,8 @@ var $result:=$client.rerank.create($query; $parameters)
 ### [mixedbread-ai/mxbai-rerank-xsmall-v1](https://huggingface.co/mixedbread-ai/mxbai-rerank-xsmall-v1)
 `DeBERTa-v2`
 
-||GGUF Q8_0|ONNX F16|ONNX Int8|CTranslate Int8
-|-|-|-|-|-
+||GGUF Q8_0|ONNX F16|ONNX Int8|
+|-|-|-|-|
 |`0`||`0.91985809803009`|`0.76543623209`||
 |`3`||`0.078764326870441`|`0.11033684015274`⤵||
 |`2`|||||
@@ -229,8 +229,8 @@ var $result:=$client.rerank.create($query; $parameters)
 ### [mixedbread-ai/-rerank-base-v1](https://huggingface.co/mixedbread-ai/mxbai-rerank-base-v1)
 `DeBERTa-v2`
 
-||GGUF Q8_0|ONNX F16|ONNX Int8|CTranslate Int8
-|-|-|-|-|-
+||GGUF Q8_0|ONNX F16|ONNX Int8|
+|-|-|-|-|
 |`0`||`0.94747817516327`|`0.23237489163876`||
 |`3`||`0.25853633880615`|`0.19631579518318`||
 |`2`||`0.0044187577441335`|||
@@ -243,8 +243,8 @@ var $result:=$client.rerank.create($query; $parameters)
 > [!WARNING]
 > The model might have collapsed under its own weight. 
 
-||GGUF Q8_0|ONNX F16|ONNX Int8|CTranslate Int8
-|-|-|-|-|-
+||GGUF Q8_0|ONNX F16|ONNX Int8|
+|-|-|-|-|
 |`0`||`0.050157018005848`⤵||
 |`3`|`0.22917728905286`⤴|||
 |`2`|`0.61152515272163`⤴|`0.071954950690269`⤴||
