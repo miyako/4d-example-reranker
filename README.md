@@ -196,8 +196,8 @@ var $result:=$client.rerank.create($query; $parameters)
 ### [jinaai/jina-reranker-v2-base-multilingual](https://huggingface.co/jinaai/jina-reranker-v2-base-multilingual)
 `XLM-RoBERTa` with [`flash attention`](https://huggingface.co/jinaai/xlm-roberta-flash-implementation-onnx)
 
-||GGUF Q8_0|ONNX Int8|CTranslate Int8
-|-|-|-|-
+||GGUF Q8_0|ONNX Int8|
+|-|-|-|
 |`0`|`0.91580612478166`|||
 |`3`|`0.19414707725`|||
 |`2`||||
