@@ -119,8 +119,6 @@ var $result:=$client.rerank.create($query; $parameters)
 ### [Qwen/Qwen3-Reranker-0.6B](https://huggingface.co/Qwen/Qwen3-Reranker-0.6B)
 `Qwen3`
 
-> This model is a repurposed decoder. 
-
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
 |`0`|`0.99849343299866`|`0.11751576513052`||
@@ -132,8 +130,6 @@ var $result:=$client.rerank.create($query; $parameters)
 ### [Qwen/Qwen3-Reranker-4B](https://huggingface.co/Qwen/Qwen3-Reranker-4B)
 `Qwen3`
 
-> This model is a repurposed decoder.
-
 ||GGUF Q8_0|GGUF Q4_K_M|ONNX Int8|CTranslate Int8
 |-|-|-|-|-
 |`0`|`0.99664956331253`|`0.99508684873581`|`0.89622062444687`||
@@ -144,8 +140,6 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ### [ContextualAI/ctxl-rerank-v2-instruct-multilingual-1b](https://huggingface.co/ContextualAI/ctxl-rerank-v2-instruct-multilingual-1b)
 `Qwen3`
-
-> This model is a repurposed decoder.
 
 ||GGUF Q8_0|GGUF Q4_K_M|ONNX Int8|CTranslate Int8
 |-|-|-|-|-
@@ -178,6 +172,7 @@ var $result:=$client.rerank.create($query; $parameters)
 ---
 
 ### [maidalun1020/bce-reranker-base_v1](https://huggingface.co/maidalun1020/bce-reranker-base_v1)
+`XLM-RoBERTa`
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
@@ -188,8 +183,7 @@ var $result:=$client.rerank.create($query; $parameters)
 ---
 
 ### [jinaai/jina-reranker-v1-turbo-en](https://huggingface.co/jinaai/jina-reranker-v1-turbo-en)
-
-> This model seems like a non standard BERT implementation.
+`BERT`
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
