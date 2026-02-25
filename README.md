@@ -182,17 +182,6 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ---
 
-### [jinaai/jina-reranker-v1-turbo-en](https://huggingface.co/jinaai/jina-reranker-v1-turbo-en)
-`BERT`
-
-||GGUF Q8_0|ONNX Int8|CTranslate Int8
-|-|-|-|-
-|`0`|`0.47711632548651`|`0.26465171575546`⤵||
-|`3`|`0.47559809684731`⤴|`0.27939757704735`⤵||
-|`2`|`0.47688768439384`⤵||
-
----
-
 ### [jinaai/jina-reranker-v2-base-multilingual](https://huggingface.co/jinaai/jina-reranker-v2-base-multilingual)
 `XLM-RoBERTa` with [`flash attention`](https://huggingface.co/jinaai/xlm-roberta-flash-implementation-onnx)
 
@@ -201,6 +190,17 @@ var $result:=$client.rerank.create($query; $parameters)
 |`0`|`0.91580612478166`|`0.9150967001915`||
 |`3`|`0.19414707725`|`0.19158935546875`||
 |`2`||||
+
+---
+
+### [jinaai/jina-reranker-v1-turbo-en](https://huggingface.co/jinaai/jina-reranker-v1-turbo-en)
+`BERT`
+
+||GGUF Q8_0|ONNX Int8|CTranslate Int8
+|-|-|-|-
+|`0`|`0.47711632548651`|`0.26465171575546`⤵||
+|`3`|`0.47559809684731`⤴|`0.27939757704735`⤵||
+|`2`|`0.47688768439384`⤵||
 
 ---
 
