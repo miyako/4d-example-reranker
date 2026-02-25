@@ -175,7 +175,7 @@ var $result:=$client.rerank.create($query; $parameters)
 `BERT`
 
 > [!WARNING]
-> The scores in llama.cpp are off.
+> llama.cpp scores are mushed.
  
 ||GGUF F16|GGUF Q8_0|ONNX F16|ONNX Int8|CTranslate Int8
 |-|-|-|-|-|-
@@ -188,6 +188,9 @@ var $result:=$client.rerank.create($query; $parameters)
 ### [maidalun1020/bce-reranker-base_v1](https://huggingface.co/maidalun1020/bce-reranker-base_v1)
 `XLM-RoBERTa`
 
+> [!WARNING]
+> Scores are mushed.
+
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
 |`0`|`0.66729423323589`|`0.69750744104385`|`0.82112324237823`|
@@ -198,6 +201,9 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ### [jinaai/jina-reranker-v1-turbo-en](https://huggingface.co/jinaai/jina-reranker-v1-turbo-en)
 `BERT`
+
+> [!WARNING]
+> Scores are mushed.
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
