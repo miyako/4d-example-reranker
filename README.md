@@ -127,6 +127,17 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ---
 
+### [jinaai/jina-reranker-v2-base-multilingual](https://huggingface.co/jinaai/jina-reranker-v2-base-multilingual)
+`XLM-RoBERTa` with [`flash attention`](https://huggingface.co/jinaai/xlm-roberta-flash-implementation-onnx)
+
+||GGUF Q8_0|ONNX Int8|
+|-|-|-|
+|`0`|`0.91580612478166`|`0.9150967001915`||
+|`3`|`0.19414707725`|`0.19158935546875`||
+|`2`||||
+
+---
+
 ### [Qwen/Qwen3-Reranker-4B](https://huggingface.co/Qwen/Qwen3-Reranker-4B)
 `Qwen3`
 
@@ -179,17 +190,6 @@ var $result:=$client.rerank.create($query; $parameters)
 |`0`|`0.66729423323589`|`0.69750744104385`|`0.82112324237823`|
 |`3`|`0.43259480279184`|`0.43118476867676`|`0.62696254253387`|
 |`2`|`0.38427266104648`|`0.38333082199097`|`0.52052652835846`|
-
----
-
-### [jinaai/jina-reranker-v2-base-multilingual](https://huggingface.co/jinaai/jina-reranker-v2-base-multilingual)
-`XLM-RoBERTa` with [`flash attention`](https://huggingface.co/jinaai/xlm-roberta-flash-implementation-onnx)
-
-||GGUF Q8_0|ONNX Int8|
-|-|-|-|
-|`0`|`0.91580612478166`|`0.9150967001915`||
-|`3`|`0.19414707725`|`0.19158935546875`||
-|`2`||||
 
 ---
 
