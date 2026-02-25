@@ -67,6 +67,7 @@ var $result:=$client.rerank.create($query; $parameters)
 ```
 
 ### 🥇 [BAAI/bge-reranker-v2-m3](https://huggingface.co/BAAI/bge-reranker-v2-m3)
+`XLM-RoBERTa`
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
@@ -79,6 +80,7 @@ var $result:=$client.rerank.create($query; $parameters)
 ---
 
 ### 🥈 [BAAI/bge-reranker-large](https://huggingface.co/BAAI/bge-reranker-large)
+`XLM-RoBERTa`
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8| 
 |-|-|-|-
@@ -91,6 +93,7 @@ var $result:=$client.rerank.create($query; $parameters)
 ---
 
 ### 🥉 [cross-encoder/mmarco-mMiniLMv2-L12-H384-v1](https://huggingface.co/cross-encoder/mmarco-mMiniLMv2-L12-H384-v1)
+`XLM-RoBERTa`
 
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8| 
 |-|-|-|-
@@ -101,6 +104,7 @@ var $result:=$client.rerank.create($query; $parameters)
 ---
 
 ###  [BAAI/bge-reranker-base](https://huggingface.co/BAAI/bge-reranker-base)
+`XLM-RoBERTa`
 
 > This model correctly identifies the most relevant document and its general significance but fails to weigh minor details.
 
@@ -115,6 +119,7 @@ var $result:=$client.rerank.create($query; $parameters)
 ---
 
 ### [Qwen/Qwen3-Reranker-0.6B](https://huggingface.co/Qwen/Qwen3-Reranker-0.6B)
+`Qwen3`
 
 > This model is a repurposed decoder. 
 
@@ -127,6 +132,7 @@ var $result:=$client.rerank.create($query; $parameters)
 ---
 
 ### [Qwen/Qwen3-Reranker-4B](https://huggingface.co/Qwen/Qwen3-Reranker-4B)
+`Qwen3`
 
 > This model is a repurposed decoder.
 
@@ -139,6 +145,7 @@ var $result:=$client.rerank.create($query; $parameters)
 ---
 
 ### [ContextualAI/ctxl-rerank-v2-instruct-multilingual-1b](https://huggingface.co/ContextualAI/ctxl-rerank-v2-instruct-multilingual-1b)
+`Qwen3`
 
 > This model is a repurposed decoder.
 
@@ -151,6 +158,7 @@ var $result:=$client.rerank.create($query; $parameters)
 ---
 
 ### [amberoad/bert-multilingual-passage-reranking-msmarco](https://huggingface.co/amberoad/bert-multilingual-passage-reranking-msmarco)
+`BERT`
 
 > This model is BERT. No GGUF version available.
 
@@ -163,6 +171,7 @@ var $result:=$client.rerank.create($query; $parameters)
 ---
 
 ### [cross-encoder/ms-marco-MiniLM-L6-v2](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2)
+`BERT`
 
 > This model is BERT, not XLM-RoBERTa. The flat results suggest a `llama.cpp` bug in BERT reranking (not using token type IDs).
 
