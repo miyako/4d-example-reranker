@@ -86,6 +86,8 @@ var $result:=$client.rerank.create($query; $parameters)
 |`3`|`0.069412730634212`|`0.05670153722167`|`0.069412730634212`|
 |`2`|`0.00007634641951881`|`0.00007670062768739`|`0.00007634641951881`|
 
+ [`zenlm/zen3-reranker-medium`](https://huggingface.co/zenlm/zen3-reranker-medium)
+
 ---
 
 ### 🥉 [cross-encoder/mmarco-mMiniLMv2-L12-H384-v1](https://huggingface.co/cross-encoder/mmarco-mMiniLMv2-L12-H384-v1)
@@ -145,16 +147,6 @@ var $result:=$client.rerank.create($query; $parameters)
 |`0`|`9.4151462651145E-30`|`2.0864364569468E-30`|||
 |`3`|`8.8091215631413E-30`|`5.9291352010278E-31`||
 |`2`|`4.313235214862E-30`|`4.2437697053386E-31`|||
-
----
-
-### [zenlm/zen3-reranker-medium](https://huggingface.co/zenlm/zen3-reranker-medium)
-
-||GGUF Q8_0|ONNX F16|ONNX Int8|CTranslate Int8
-|-|-|-|-|-
-|`0`|`0.99964651541151`|`0.99965906143188`|`0.6165589094162`|`0.99963819980621`|
-|`3`|`0.075056430614557`|`0.0754374563694`|`0.40511500835419`|`0.069412730634212`|
-|`2`|`0.00007660954816207`|`0.00007659618131584`||`0.00007634641951881`|
 
 ---
 
