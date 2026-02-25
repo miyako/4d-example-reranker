@@ -106,8 +106,6 @@ var $result:=$client.rerank.create($query; $parameters)
 ###  [BAAI/bge-reranker-base](https://huggingface.co/BAAI/bge-reranker-base)
 `XLM-RoBERTa`
 
-> This model correctly identifies the most relevant document and its general significance but fails to weigh minor details.
-
 ||GGUF Q8_0|ONNX Int8|CTranslate Int8
 |-|-|-|-
 |`0`|`0.99974032333812`|`0.99875009059906`|`0.99971753358841`|
@@ -160,8 +158,6 @@ var $result:=$client.rerank.create($query; $parameters)
 ### [amberoad/bert-multilingual-passage-reranking-msmarco](https://huggingface.co/amberoad/bert-multilingual-passage-reranking-msmarco)
 `BERT`
 
-> This model is BERT. No GGUF version available.
-
 ||GGUF Q8_0|ONNX F16|ONNX Int8|CTranslate Int8
 |-|-|-|-|-
 |`0`||`0.99972993135452`|`0.99938893318176`|`0.9980161190033`|
@@ -172,8 +168,6 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ### [cross-encoder/ms-marco-MiniLM-L6-v2](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2)
 `BERT`
-
-> This model is BERT, not XLM-RoBERTa. The flat results suggest a `llama.cpp` bug in BERT reranking (not using token type IDs).
 
 ||GGUF F16|GGUF Q8_0|ONNX F16|ONNX Int8|CTranslate Int8
 |-|-|-|-|-|-
