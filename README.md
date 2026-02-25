@@ -163,6 +163,9 @@ var $result:=$client.rerank.create($query; $parameters)
 ### [ContextualAI/ctxl-rerank-v2-instruct-multilingual-1b](https://huggingface.co/ContextualAI/ctxl-rerank-v2-instruct-multilingual-1b)
 `Qwen3`
 
+> [!WARNING]
+> ONNX scores are mushed.
+
 ||GGUF Q8_0|GGUF Q4_K_M|ONNX Int8|
 |-|-|-|-|
 |`0`|`9.4151462651145E-30`|`2.0864364569468E-30`|`0.60062056779861`||
