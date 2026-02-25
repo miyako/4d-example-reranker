@@ -132,6 +132,18 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ---
 
+### [ContextualAI/ctxl-rerank-v2-instruct-multilingual-1b](https://huggingface.co/ContextualAI/ctxl-rerank-v2-instruct-multilingual-1b)
+
+> This model is a repurposed decoder.
+
+||GGUF Q8_0|GGUF Q4_K_M|ONNX Int8|CTranslate Int8
+|-|-|-|-|-
+|`0`|`9.4151462651145E-30`|`2.0864364569468E-30`|||
+|`3`|`8.8091215631413E-30`|`5.9291352010278E-31`||
+|`2`|`4.313235214862E-30`|`4.2437697053386E-31`|||
+
+---
+
 ### [amberoad/bert-multilingual-passage-reranking-msmarco](https://huggingface.co/amberoad/bert-multilingual-passage-reranking-msmarco)
 
 > This model is BERT. No GGUF version available.
