@@ -228,11 +228,11 @@ var $result:=$client.rerank.create($query; $parameters)
 |-|-|-|-|-
 |`0`||`0.91985809803009`|`0.76543623209`||
 |`3`||`0.078764326870441`|`0.11033684015274`⤵||
-|`2`|||||
+|`2`|``||||
 
 ---
 
-### [mixedbread-ai/mxbai-rerank-base-v1](https://huggingface.co/mixedbread-ai/mxbai-rerank-base-v1)
+### [mixedbread-ai/-rerank-base-v1](https://huggingface.co/mixedbread-ai/mxbai-rerank-base-v1)
 
 > This model is DeBERTa-v2. Export to GGUF is not supported as of February 2026.
 
@@ -249,13 +249,13 @@ var $result:=$client.rerank.create($query; $parameters)
 > [!WARNING]
 > The model might have collapsed under its own weight. Notice the superior results in base and xsmall.
 
-> This model is DeBERTa-v2. Export to GGUF is not supported as of February 2026.
+> This model is DeBERTa-v2. `llama.cpp` scores are off.
 
 ||GGUF Q8_0|ONNX F16|ONNX Int8|CTranslate Int8
 |-|-|-|-|-
 |`0`||`0.050157018005848`⤵||
-|`3`||||
-|`2`||`0.071954950690269`⤴||
+|`3`|`0.22917728905286`⤴|||
+|`2`|`0.61152515272163`⤴|`0.071954950690269`⤴||
 
 ---
 
