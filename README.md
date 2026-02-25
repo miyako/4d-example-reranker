@@ -96,6 +96,16 @@ var $result:=$client.rerank.create($query; $parameters)
 
 ---
 
+### [zenlm/zen3-reranker](https://huggingface.co/zenlm/zen3-reranker)
+
+||GGUF Q8_0|ONNX Int8|CTranslate Int8
+|-|-|-|-
+|`0`|`0.99975650378508`|`0.99979907274246`|`0.99974030256271`|
+|`3`|`0.0040334316733283`|`0.0034260561224073`|`0.0037298486568034`|
+|`2`|`0.00001605949705307`|`0.00001626304583624`|`0.00001607972626516`|
+
+---
+
 ###  [BAAI/bge-reranker-base](https://huggingface.co/BAAI/bge-reranker-base)
 
 > This model correctly identifies the most relevant document and its general significance but fails to weigh minor details.
@@ -296,13 +306,3 @@ var $result:=$client.rerank.create($query; $parameters)
 |`0`|`0.99964651541151`|`0.99965906143188`|`0.6165589094162`|`0.99963819980621`|
 |`3`|`0.075056430614557`|`0.0754374563694`|`0.40511500835419`|`0.069412730634212`|
 |`2`|`0.00007660954816207`|`0.00007659618131584`||`0.00007634641951881`|
-
----
-
-### [zenlm/zen3-reranker](https://huggingface.co/zenlm/zen3-reranker)
-
-||GGUF Q8_0|ONNX Int8|CTranslate Int8
-|-|-|-|-
-|`0`|`0.99975650378508`|`0.99979907274246`|`0.99974030256271`|
-|`3`|`0.0040334316733283`|`0.0034260561224073`|`0.0037298486568034`|
-|`2`|`0.00001605949705307`|`0.00001626304583624`|`0.00001607972626516`|
