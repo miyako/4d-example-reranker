@@ -2,7 +2,7 @@
 
 Sample project to test AI Kit rerank support
 
-[`XLM-RoBERTa`](https://huggingface.co/docs/transformers/model_doc/xlm-roberta) seems to have the widest support. `llama.cpp` seems to default to `XLM-RoBERTa` making [`BERT`](https://huggingface.co/docs/transformers/model_doc/bert) reranking incorrect. `int8` quantisation is normally preferred on a CPU but for BERT models which are small by design, it makes sense to use `float16`.
+[`XLM-RoBERTa`](https://huggingface.co/docs/transformers/model_doc/xlm-roberta) seems to have the widest support. `llama.cpp` seems to default to `XLM-RoBERTa` making [`BERT`](https://huggingface.co/docs/transformers/model_doc/bert) reranking incorrect. `int8` quantisation is normally preferred on a CPU but for BERT models it might be necessary to use `float16` for precision.
 
 ### Compatibility
 
