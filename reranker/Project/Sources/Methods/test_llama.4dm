@@ -11,3 +11,24 @@ var $query:=cs:C1710.AIKit.RerankerQuery.new({query: "What is deep learning?"; d
 var $parameters:=cs:C1710.AIKit.RerankerParameters.new({model: "default"; top_n: 3})
 
 var $result:=$client.rerank.create($query; $parameters)
+
+SET TEXT TO PASTEBOARD:C523(JSON Stringify:C1217($result.results; *))
+
+/*
+
+[
+{
+"index": 2,
+"relevance_score": 0.61152515272163
+},
+{
+"index": 1,
+"relevance_score": 0.22917728905286
+},
+{
+"index": 3,
+"relevance_score": 0.19299100353743
+}
+]
+
+*/
