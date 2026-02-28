@@ -240,7 +240,7 @@ var $result:=$client.rerank.create($query; $parameters)
 > Integer scores are low in precision.
 
 ||ONNX F16|ONNX Int8|
-|-|-|-|debert
+|-|-|-|
 |`0`|`0.91985809803009`|`0.76543623209`||
 |`3`|`0.078764326870441`|`0.11033684015274`⤵||
 |`2`||||
